@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.button_buscar {
+    padding: 14px 19px;
+    font-size: 1.2rem;
+    background-color: #20c45c;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
