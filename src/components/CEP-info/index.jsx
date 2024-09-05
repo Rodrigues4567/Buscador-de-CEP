@@ -1,15 +1,15 @@
 import styles from "./CEPInfo.module.css"
 
-function CEPInfo() {
+function CEPInfo(props) {
     return (
         <>
             <div className={styles.container}>
                 <div className={styles.infos}>
-                    <h2>CEP: 41290-730</h2>
-                    <p>Rua da bussola perdida</p>
-                    <p>Complemento: Algum complemento</p>
-                    <p>Pirajá</p>
-                    <p>Salvador - BA</p>
+                    <h2><strong>CEP:</strong> {props.cep}</h2>
+                    <p><strong>Logradouro:</strong> {props.logradouro}</p>
+                    <p><strong>Bairro:</strong> {props.bairro}</p>
+                    <p><strong>Cidade:</strong> {props.cidade}</p>
+                    <p><strong>UF:</strong> {props.uf}</p>
                 </div>
             </div>
         </>
